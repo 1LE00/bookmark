@@ -75,6 +75,7 @@ for (let question = 0; question < questions.length; question++) {
     });
 }
 
+
 var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 const input = document.getElementById("text");
@@ -107,7 +108,7 @@ button.addEventListener("click", function(){
 window.onscroll = function(){
     var navbar = document.getElementsByTagName("nav")[0];
     var sticky = navbar.offsetTop;
-    var height = navbar.offsetHeight
+    var height = navbar.offsetHeight;
 
     if (sticky > height) {
         navbar.classList.add("sticky")

@@ -63,7 +63,7 @@ button:active{
         width: 100%;
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 2;
         height: 89px;
         overflow: hidden;
         transition: background-color 0.3s ease-in, height 0.5s ease;
@@ -251,7 +251,7 @@ button:active{
     }
 
     .hero-wrapper .hero-content .buttons button:nth-child(2){
-        background-color: hsl(0, 0%, 100%);
+        background-color: hsla(229, 31%, 21%, 0.05);
         color: hsla(229, 31%, 21%, 0.842);
         box-shadow: inset 0.2px 0.2px 0 0 rgba(0, 0, 0, 0.2), inset -0.2px -0.2px 0 0 rgba(0, 0, 0, 0.2),
         0 5px 10px rgba(0, 0, 0, 0.2);
@@ -290,7 +290,7 @@ button:active{
     }
 
     .features-wrapper .features-list li span{
-        padding: 1.3rem 0;
+        padding: 5.5vw 0;
         font-size: 4.5vw;
         color: hsla(229, 8%, 60%);
         position: relative;
@@ -676,7 +676,6 @@ button:active{
 
     .hero-wrapper .hero-content p{
         padding: 0 3.5vw;
-        margin-bottom: 10vw;
     }
 
     .hero-wrapper .hero-content .buttons{
@@ -736,5 +735,727 @@ button:active{
 
     footer .footer-socials{
         width: 45%;
+    }
+}
+
+@media screen and (min-width: 540px){
+
+    h1, h2, h3, h4, h5, h6{
+        margin-bottom: 4vw;
+        line-height: 1.2;
+    }
+    
+    p{
+        margin-bottom: 7vw;
+    }
+
+    nav{
+        padding: 30px;
+    }
+
+    nav.nav-background{
+        padding: 40px 30px;
+    }
+
+    .mobile-links li:last-child{
+        width: 20%;
+    }
+
+    .hero-wrapper{
+        margin: 2.5rem 0 12rem;
+    }
+
+    .hero-wrapper .hero-content{
+        padding: 0 1.875rem 0 1.6rem;
+    }
+
+    .hero-wrapper .hero-content h2{
+        font-size: 7.8vw;
+    }
+
+    .hero-wrapper .hero-content p{
+        font-size: 3.8vw;
+        padding: 0 9vw;
+    }
+
+    .hero-wrapper .hero-content .buttons button, .features-tab-wrapper .features-tab-content button, .download .cards .card button, .faq button, .sign-up button{
+        font-size: 3.5vw;
+        padding: 4vw 7vw;
+    }
+
+    .features-wrapper .features-content{
+        padding: 0 30px;
+        margin-bottom: 15vw;
+    }
+
+    .features-wrapper .features-content h3{
+        font-size: 6vw;
+    }
+
+    .features-wrapper .features-content p{
+        font-size: 3.8vw;
+        padding: 0 4.5vw;
+    }
+
+    .features-wrapper .features-list li span{
+        font-size: 4vw;
+    }
+
+    .features-wrapper .features-list{
+        padding: 0 30px;
+        margin-bottom: 17vw;
+    }
+
+    .features-tab-wrapper{
+        margin: 2.5rem 0 35vw;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero{
+        left: 30px;
+        margin-bottom: 12vw;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero .tab-hero-box{
+        left: -30px;
+    }
+
+    .features-tab-wrapper .features-tab-content{
+        padding: 0 5px 0 30px;
+    }
+
+    .features-tab-wrapper .features-tab-content h2 {
+        font-size: 6vw;
+    }
+
+    .features-tab-wrapper .features-tab-content p{
+        font-size: 3.8vw;
+        padding: 0 4.5vw;
+    }
+
+    .download, .faq{
+        padding: 0 30px;
+    }
+
+    .download .download-content h3{
+        font-size: 5.5vw;
+    }
+
+    .download .download-content p, .faq .faq-content p{
+        font-size: 3.8vw;
+        padding: 0 5vw;
+    }
+
+    .download .cards{
+        margin: 0 5vw 25vw  ;
+    }
+
+    .download .cards .card{
+        margin-bottom: 10vw;
+    }
+
+    .download .cards .card h4{
+        font-size: 4.5vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .download .cards .card p{
+        font-size: 3.5vw;
+        margin-bottom: 15vw;
+    }
+
+    .download .cards .card button {
+        font-size: 3vw;
+        padding: 4vw 13vw;
+    }
+
+    .faq{
+        margin-bottom: 25vw;
+    }
+
+    .faq .faq-content h3{
+        font-size: 5.9vw;
+    }
+
+    .faq .faq-content p{
+        padding: 0 3.5vw;
+    }
+
+    .faq .faq-list{
+        margin-bottom: 15vw;
+    }
+
+    .faq .faq-list li .question h4{
+        font-size: 3.8vw;
+    }
+
+    .faq .faq-list li .answer p{
+        font-size: 3.5vw;
+    }
+
+    .sign-up{
+        padding: 17vw 30px 16vw;
+    }
+
+    .sign-up h2{
+        font-size: 6.7vw;
+    }
+
+    .sign-up .input form input{
+        padding: 4vw 1rem;
+    }
+
+    footer .footer-socials{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:768px){
+    nav{
+       padding: 2.5rem 3.5rem;
+       align-items: flex-start; 
+       height: 102px;
+    }
+
+    nav .desktop-links{
+        display: flex;
+        justify-content: end;
+        gap: 2.25rem;
+        width: 60%;
+    }
+
+    nav .desktop-links li a{
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        color: hsla(229, 31%, 21%, 0.87);
+        letter-spacing: 1px;
+    }
+
+    nav .desktop-links li:last-child a{
+        background-color: hsl(0, 94%, 66%);
+        padding: 0.75rem 2rem;
+        color: hsl(0, 0%, 100%);
+        border-radius: 5px;
+        box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    .mobile-links,.hamburger{
+        display: none;
+    }
+
+    .hero-wrapper{
+        margin: 3.5rem 0 12rem;
+    }
+
+    .hero-wrapper .hero-content, .features-wrapper .features-list{
+        padding: 0 3.5rem;
+    }
+
+    .hero-wrapper .hero-content p{
+        padding: 0 7vw;
+    }
+
+    .hero-wrapper .hero-content .buttons button, .features-tab-wrapper .features-tab-content button, .download .cards .card button, .faq button, .sign-up button {
+        padding: 4vw 5vw;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero{
+        left: 3.5rem;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero .tab-hero-box{
+        left: -3.5rem;
+    }
+
+    .download .cards .card{
+        padding: 3.5rem 6vw;
+    }
+
+    .download .cards .card button{
+        padding: 4vw 13vw;
+    }
+
+    .faq {
+        padding: 0 3.5rem;
+    }
+
+    .sign-up {
+        padding: 17vw 3.5rem 16vw;
+    }
+
+    .sign-up .input form input{
+        font-size: 1.5rem;
+        padding: 4vw 2rem;
+    }
+
+    ::placeholder{
+        font-size: 1.25rem;
+    }
+
+    footer{
+        padding: 3rem 3.5rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-icon{
+        margin: 0;
+    }
+
+    footer .footer-links{
+        display: flex;
+        gap: 2rem;
+        margin: 0;
+    }
+
+    footer .footer-links li{
+        margin: 0;
+    }
+
+    footer .footer-links li a{
+        font-size: 2vw;
+    }
+
+    footer .footer-socials{
+        width: 12.5%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    ::-webkit-scrollbar-track
+    {
+        box-shadow:  inset 0 0 6px rgba(0,0,0,0.3);;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+	background-image: -webkit-gradient(linear, left bottom,left top,color-stop(0.44, rgb(122,153,217)),color-stop(0.72, rgb(73,125,189)),color-stop(0.86, rgb(28,58,148)));
+}
+    
+    nav .desktop-links li a{
+        font-weight: 500;
+    }
+
+    nav .desktop-links li a:hover, nav .desktop-links li a:focus{
+        color: hsl(0, 94%, 66%);
+    }
+
+    nav .desktop-links li:last-child a:hover, nav .desktop-links li:last-child a:focus{
+        outline: 2px solid hsl(0, 94%, 66%);
+        background-color: transparent;
+        color: hsl(0, 94%, 66%);
+    }
+
+    .hero-wrapper{
+        flex-direction: row-reverse;
+        padding: 0 0 0 3.5rem;
+        margin: 3.5rem 0 7rem;
+        text-align: left;
+    }
+
+    .hero-wrapper .hero-content{
+        padding: 0;
+        flex: 50%;
+    }
+
+    .hero-wrapper .hero-content h2{
+        font-size: 3.25vw;
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-wrapper .hero-content p{
+        font-size: 1.45vw;
+        padding: 0 1rem 0 0;
+        margin-bottom: 2rem;
+    }
+
+    .hero-wrapper .illustration-hero{
+        flex: 60%;
+        height: 400px;
+        margin: 0;
+    }
+
+    .hero-wrapper .illustration-hero .hero-box{
+        width: 70%;
+        height: 290px;
+        border-radius: 0% 0% 0% 35%;
+    }
+
+
+    .hero-wrapper .hero-content .buttons{
+        justify-content: left;
+        gap: 1.5rem;
+    }
+    .hero-wrapper .hero-content .buttons button, .features-tab-wrapper .features-tab-content button, .download .cards .card button, .faq button{
+        font-size: 1.2vw;
+        padding: 1.5vw 2vw;
+    }
+
+    .hero-wrapper .hero-content .buttons button:first-child:hover{
+        outline: 1px solid hsl(231, 69%, 60%);
+        background-color: transparent;
+        color: hsl(231, 69%, 60%);
+    }
+
+    .hero-wrapper .hero-content .buttons button:last-child:hover{
+        outline: 1px solid hsl(229, 31%, 21%);
+        background-color: transparent;
+    }
+
+    .features-wrapper .features-content{
+        padding: 0 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .features-wrapper .features-content h3{
+        font-size: 2.5vw;
+        margin-bottom: 1.5rem;
+    }
+
+    .features-wrapper .features-content p{
+        font-size: 1.5vw;
+        width: 60%;
+        margin-inline: auto;
+        margin-bottom: 0;
+    }
+
+    .features-wrapper .features-list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+
+    .features-wrapper .features-list li{
+        padding: 0;
+        border-top: none;
+    }
+
+    .features-wrapper .features-list li span{
+        padding: 1vw 5vw 2vw;
+        border-bottom: 1px solid rgba(145, 148, 161, 0.534);
+    }
+
+    .features-wrapper .features-list li span{
+        font-size: 1.4vw;
+    }
+
+    .features-wrapper .features-list li span:hover{
+        color: hsl(0, 94%, 66%);
+    }
+
+    .features-wrapper .features-list li:last-child{
+        border: none;
+    }
+
+    .features-wrapper .features-list li span.first::before, .features-wrapper .features-list li span.f-list::before{
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+        height: 3.5px;
+        background-color: hsl(0, 94%, 66%);
+        transition: all 0.1s;
+    }
+
+    .features-tab-wrapper{
+        flex-direction: row;
+        padding: 0 3.5rem 0 0;
+        margin-bottom: 11rem;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero{
+        flex: 50%;
+        height: 26.027vw;
+        margin-bottom: 0;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero .tab-hero-box{
+        width: 85%;
+        height: 25vw;
+        bottom: -60px;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero.tab-two{
+        height: 39.063vw;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero.tab-two .tab-hero-box{
+        width: 83%;
+        height: 34vw;
+        bottom: -30px;
+        margin-bottom: 0;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero.tab-three{
+        height: 39.063vw;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero.tab-three .tab-hero-box{
+        width: 95%;
+        height: 35vw;
+        bottom: -50px;
+        margin-bottom: 0;
+    }
+
+    .features-tab-wrapper .features-tab-content{
+        text-align: left;
+        flex: 50%;
+        padding-inline: 6rem 0;
+        padding-block: 4rem 0;
+    }
+
+    .features-tab-wrapper .features-tab-content h2{
+        font-size: 2.5vw;
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+
+    .features-tab-wrapper .features-tab-content p{
+        font-size: 1rem;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .download{
+        margin-bottom: 18vw;
+    }
+
+    .download, .faq{
+        padding: 0 3.5rem;
+    }
+
+    .download .download-content h3{
+        font-size: 2.5vw;
+        margin-bottom: 1rem;
+    }
+
+    .download .download-content p{
+        font-size: 1.4vw;
+        width: 63%;
+        margin-inline: auto;
+        margin-bottom: 0;
+    }
+
+    .download .cards{
+        display: flex;
+        margin: 0;
+        gap: 2rem;
+    }
+
+    .download .cards .card{
+        padding: 5vw 2vw 2vw;
+        margin: 0;
+    }
+
+    .download .cards .card img{
+        margin-bottom: 1.5rem;
+    }
+
+    .download .cards .card h4{
+        font-size: 1.5vw;
+        margin-bottom: 0.8vw;
+        padding: 0;
+    }
+
+    .download .cards .card p{
+        font-size: 1.4vw;
+        margin-bottom: 5vw;
+        padding: 0;
+    }
+
+    .download .cards .card.firefox{
+        position: relative;
+        z-index: 1;
+        top: 4vw;
+    }
+
+    .download .cards .card.opera{
+        position: relative;
+        top: 8vw;
+        z-index: 1;
+    }
+
+    .download .cards .card button:hover{
+        outline: 2px solid hsl(231, 69%, 60%);
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(231, 69%, 60%);
+    }
+
+    .faq{
+        width: 63%;
+        margin-inline: auto;
+        margin-bottom: 7rem;
+    }
+
+    .faq .faq-content{
+        margin-bottom: 3rem;
+    }
+
+    .faq .faq-content h3{
+        font-size: 2.5vw;
+        margin-bottom: 1rem;
+    }
+
+    .faq .faq-content p{
+        font-size: 1.4vw;
+        margin: 0;
+        width: 80%;
+        padding: 0;
+        margin-inline: auto;
+    }
+
+    .faq .faq-list{
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+
+    .faq .faq-list li:first-child {
+        border-top: 1px solid rgba(145, 148, 161, 0.452)
+    }
+
+    .faq .faq-list li .question{
+        padding: 1.5vw 0;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .faq .faq-list li .question:focus, .faq .faq-list li .question:hover{
+        cursor: pointer;
+    }
+
+    .faq .faq-list li .question:hover h4{
+        color: hsl(0, 94%, 66%);
+    }
+    .faq .faq-list li .question h4{
+        font-size: 1.25vw;
+    }
+
+    .faq .faq-list li .answer p{
+        font-size: 1.25vw;
+        padding: 0;
+    }
+
+    .faq .faq-list li .answer p.position{
+        margin-bottom: 2vw;
+    }
+
+    .faq .faq-list li .question svg{
+        transform: scale(0.8);
+        position: relative;
+        right: 1rem;
+    }
+
+    .sign-up{
+        padding: 6.5% 28%;
+    }
+
+    .sign-up h5{
+        font-size: 1.1vw;
+        margin-bottom: 2.5rem;
+    }
+
+    .sign-up h2{
+        font-size: 3vw;
+        margin-bottom: 2.5rem;
+    }
+
+    .sign-up .input{
+        width: 80%;
+    }
+
+    .sign-up .input form input{
+        padding: 1.5vw;
+        font-size: 1.25vw;
+    }
+
+    .sign-up .input form input:focus{
+        border: none;
+        outline: 1px solid hsl(0, 94%, 66%);
+    }
+
+    .sign-up .input .message{
+        font-size: 1.1vw;
+    }
+
+    ::placeholder{
+        font-size: 1.25vw;
+    }
+
+    .sign-up button {
+        width: 80%;
+        font-size: 1.2vw;
+        padding: 1.5vw 2vw;
+    }
+
+    .sign-up button:hover{
+        outline: 1px solid hsl(0, 94%, 66%);
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 94%, 66%);
+    }
+    
+    footer{
+        padding: 1.5rem 3.5rem;
+        justify-content: unset;
+        position: relative;
+    }
+
+    footer .footer-icon{
+        margin-right: 4rem;
+        cursor: pointer;
+    }
+
+    footer .footer-links li a{
+        font-size: 0.85rem;
+    }
+
+    footer .footer-links li a:hover{
+        color: hsl(0, 94%, 66%);
+    }
+
+    footer .footer-socials{
+        width: 8%;
+        position: absolute;
+        right: 3.5rem;
+    }
+
+    footer .footer-socials a:hover svg path{
+        fill: hsl(0, 94%, 66%);
+    }
+}
+
+@media screen and (min-width:1280px) {
+    nav, .features-wrapper .features-content, .features-wrapper .features-list, .download, .faq, footer{
+        padding-inline: 5rem;
+    }
+
+    .hero-wrapper{
+        padding-left: 5rem;
+    }
+
+    .features-tab-wrapper{
+        padding-right: 5rem;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero{
+        left: 5rem;
+    }
+
+    .features-tab-wrapper .tab-illustration-hero .tab-hero-box{
+        left: -5rem;
+    }
+
+    footer .footer-socials{
+        right: 5rem;
     }
 }
